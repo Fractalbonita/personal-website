@@ -4,13 +4,13 @@ body {
   color: #333;
   background-color: #fefefe;
   max-width: 1080px;
-  line-height: 1.5;;
+  line-height: 1.5;
 }
 article {
-  font-size: 1.5rem;;
+  font-size: 1.5rem;
 }
 h1 {
-  font-size: 2rem;;
+  font-size: 2rem;
   font-weight: 400;
   color: blue;
 }
