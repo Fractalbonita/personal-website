@@ -1,3 +1,8 @@
+* {
+  margin: 0 auto; 
+  box-sizing: border-box;
+  padding: 5px;
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 112.5%;
@@ -5,6 +10,7 @@ body {
   background-color: #fefefe;
   max-width: 1080px;
   line-height: 1.5;
+  padding: 50px;
 }
 article {
   font-size: 1.5rem;
@@ -14,7 +20,18 @@ h1 {
   font-weight: 400;
   color: blue;
 }
-p {
-  font-style: italic;
+
+.box {
+  border: 16px solid turquoise;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 70%; 
+  background: mintcream; 
+}
+
+.box p {
+  color: darkslategrey;
+  font-style: italic; 
 }
 
