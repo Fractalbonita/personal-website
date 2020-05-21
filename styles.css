@@ -4,7 +4,7 @@
   padding: 5px;
 }
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 112.5%;
   color: #333;
   background-color: #fefefe;
@@ -12,26 +12,48 @@ body {
   line-height: 1.5;
   padding: 50px;
 }
+a {
+  text-decoration: none;
+}
 article {
   font-size: 1.5rem;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
   font-weight: 400;
-  color: blue;
+  color: rgb(67, 104, 100);
 }
-
+p {
+  text-align: justify;
+}
 .box {
   border: 16px solid turquoise;
+  border-radius: 15px;
   padding: 20px;
   margin-bottom: 10px;
   margin-top: 20px;
   width: 70%; 
   background: mintcream; 
 }
-
 .box p {
   color: darkslategrey;
   font-style: italic; 
 }
+.badge {
+  list-style: none;
+}
+
+.badge > li {
+  display: inline-block;
+  border: 1px solid rgb(237, 199, 199);
+  border-radius: 15px;
+  background-color: rgb(237, 199, 199);
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
+
 
