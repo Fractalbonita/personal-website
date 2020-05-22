@@ -43,7 +43,6 @@ p {
 .badge {
   list-style: none;
 }
-
 .badge > li {
   display: inline-block;
   border: 1px solid rgb(237, 199, 199);
